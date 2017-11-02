@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.funbio.QuizActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+    <LinearLayout
+        android:background="#F1F8E9"
+        android:id="@+id/kotak_soal"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:background="#558B2F">
+            <TextView
+                android:id="@+id/no_soal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 "
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:id="@+id/soal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apa itu miopi?"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp">
+            <RadioButton
+                android:id="@+id/pil_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabun Jauh" />
+            <RadioButton
+                android:id="@+id/pil_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabun Dekat"/>
+            <RadioButton
+                android:id="@+id/pil_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabun Ayam"/>
+            <RadioButton
+                android:id="@+id/pil_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rabun Ayam"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kotak_tombol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/kotak_soal"
+        android:layout_centerHorizontal="true">
+
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="40dp"
+    android:padding="10dp"
+    android:background="#F1F8E9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawaban yang benar : "
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kunci_jawaban"
+        android:textColor="@android:color/black"
+        android:text="A"/>
+</LinearLayout>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:onClick="next"
+            android:text="Next"
+            android:background="#33691E"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

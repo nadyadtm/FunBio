@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Fun Bio</string>
+    <string name="title_activity_list_materi">ListMateri</string>
+    <string name="textProtista_pngertian">
+        Protista ialah kelompok organisme yang memiliki struktur sel eukariotik, uniseluler, maupun multiseluler dan tidak memiliki jaringan yang sebenarnya
+    </string>
+    <string name="textProtista_ciri2">
+1. Kebanyakan uniseluler (bersel satu) tetapi beberapa organisme multiseluler atau kolonial.
+\n2. Mereka hidup bebas atau hidup sebagai parasit.
+\n3. Respirasi aerob dan memiliki mitokondria untuk respirasi sel.
+\n4. Reproduksi secara aseksual atau seksual.
+    </string>
+    <string name="textProtista_klasifikasi">
+        Berikut ini merupakan klasifikasi Protista\n
+        1) Protista mirip hewan\n
+        Sesuai dengan namanya, Protozoa merupakan makhluk hidup eukariotik uniseluler yang mampu berkembangbiak dan bergerak (seperti hewan). Protozoa merupakan organisme kosmopolit yang artinya dapat hidup dan ditemukan di banyak tempat seperti udara, air, tanah, dll. Protozoa dapat berkembang biak secara aseksual dan seksual. Berdasarkan alat geraknya, protista mirip hewan dibagi lagi menjadi 4 kelompok:\n
+        a. Filum Rhizopoda\n
+        b. Filum Ciliata\n
+        c. Filum Flagellata\n
+        d. Sporozoa\n
+        2) Protista mirip tumbuhan\n
+        Protista mirip tumbuhan yang uniseluler sering disebut fitoplankton, sedangkan protista mirip tumbuhan multiseluler sering disebut alga. Sama seperti namanya, protista mirip tumbuhan, baik alga maupun fitoplankton mampu melakukan fotosintesis. Fitoplankton memiliki peranan penting dalam memberikan oksigen ke atmosfer melalui proses fotosintesis yang dilakukan, protista mirip tumbuhan dibagi kedalam 7\n
+        a. Euglenophyta\n
+        b. Chrysophyta\n
+        c. Pyrrophyta\n
+        d. Phaeophyta\n
+        3) Protista mirip jamur\n
+        Myxomycota disebut juga jamur lendir plasmodial. Semua anggota Myxoycota bersifat heterotrof karena tidak bisa melakukan fotosintesis sehingga tidak mampu menghasilkan makanan sendiri. Biasanya jamur lendri plasmodium memiliki pigmen warna yang terang, dapat berwarna kuning atau oranye. Plasmodium dapat tumbuh hingga diameternya mencapai satuan sentimeter (cm), namun demikian mereka merupakan organisme uniseluler, ukurang tubuhnya besar karena kelompok ini dapat memiliki banyak nukleus. Habitat myxomycota dapat ditemukan di hutan basah, kayu lapuk, dan tanah lembab. Dalam siklus hidupnya terdapat kumpulan sel amoeboid yang disebut plasmodium. Sl amoeboid merupakan sel-sel yang dapat hidup bebas yang dihasilkan oleh jamur lendir.\n
+        a. Myxomycota\n
+        b. Acrasiomycota\n
+        c. Oomycota\n
+    </string>
+    <string name="textVirus_pengertian">
+        Menurut penelitian para ahli biologi, virus adalah peralihan antara makhluk hidup dengan benda dengan benda mati, hal ini dikarenakan virus memiliki ciri-ciri seperti makhluk hidup (memiliki DNA dan mampu berkembang biak pada sel yang hidup) tetapi juga memiliki ciri-ciri seperti benda mati (dapat dikristalkan dan tidak memiliki protoplasma).\n
+    </string>
+    <string name="textVirus_ciri2">
+1. Virus bersifat aseluler (tidak mempunyai sel)
+
+\n\n2. Virus berukuran amat kecil , jauh lebih kecil dari bakteri, yakni berkisar antara 20 mµ - 300mµ (1 mikron = 1000 milimikron). untuk mengamatinya diperlukan mikroskop elektron yang pembesarannya dapat mencapai 50.000 X.
+
+\n\n3. Virus hanya memiliki salah satu macam asam nukleat (RNA atau DNA)
+
+\n\n4. Virus umumnya berupa semacam hablur (kristal) dan bentuknya sangat bervariasi. Ada yang berbentuk oval , memanjang, silindris, kotak dan kebanyakan berbentuk seperti kecebong dengan "kepala" oval dan "ekor" silindris.
+
+\n\n5. Tubuh virus terdiri atas: kepala , kulit (selubung atau kapsid), isi tubuh, dan serabut ekor.
+    </string>
+    <string name="textVirus_klasifikasi">
+        Berikut ini merupakan klasifikasi virus berdasarkan asam nukleat
+        \n\n1. Ribovirus\n
+        Contoh virus : virus toga, virus arena, virus picorna, virus orthomyxo\n
+        \n\n2. Deoksiribovirus\n
+        Contoh virus : virus herpes, virus pox, virus mozaik, virus papova\n
+    </string>
+</resources>
